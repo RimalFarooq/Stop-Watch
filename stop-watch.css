@@ -1,0 +1,81 @@
+body{
+    background: #edeaff;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vmax;
+}
+.stopWatch{
+    height: 10vmax;
+    width: 13vmax;
+    border: 0.8vmax double black;
+    display: flex;
+    flex-direction: column;
+    gap: 3vmax;
+    padding-top: 1.3vmax;
+    padding-bottom: 1.3vmax;
+    background-color: black;
+    box-shadow: 0 1vmax 1vmax rgba(0,0,0,0.8);
+}
+.romanesco-regular {
+    font-family: "Romanesco", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3vmax;
+    text-align: center;
+}
+  
+.displaytime{
+    font-size: 2vmax;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border: 0.3vmax double black;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    background-color: gray;
+    padding: 0.7vmax;
+}
+.circle{
+    height: 2vmax;
+    width: 2vmax;
+}
+i{
+    border: 0.2vmax solid rgb(81, 79, 79);
+    border-radius: 5vmax;
+}
+.buttons i{
+    font-weight: bold;
+    font-size: 2vmax;
+    color: orange;
+}
+.buttons .i1:hover{
+    cursor: pointer;
+    color: rgb(7, 241, 230);
+    border:0.2vmax solid rgb(20, 141, 254);
+    border-radius: 5vmax;
+    transition: all ease-in;
+}
+.buttons .i2:hover{
+    cursor: pointer;
+    color: rgb(249, 98, 98);
+    border:0.2vmax solid rgb(251, 152, 152);
+    border-radius: 5vmax;
+    transition: all ease-in;
+}
+.buttons .i3:hover{
+    cursor: pointer;
+    color: rgb(54, 241, 7);
+    border:0.2vmax solid rgb(103, 230, 18);
+    border-radius: 5vmax;
+    transition: all ease-in;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vmax;
+    
+}
